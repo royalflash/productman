@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,600italic|Roboto:900);
+
+body{
+	font: 400 14px/1.5 'Roboto Light', 'Roboto Black', 'Roboto', 'Raleway', sans-serif;
+	color: #303030;
+	background: #EFEFEF;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1230px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.ba-header{
+	height: 84px;
+	margin-bottom: 105px;
+}
+.ba-logo h1{
+	margin: 30px 0 0 0;
+	font-size: 48px;
+	vertical-align: bottom;
+}
+.ba-menu{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	vertical-align: bottom;
+}
+.ba-menu li{
+	float: left;
+	margin-top: 65px;
+	margin-left: 51px;
+
+}
+.ba-menu a{
+	color: #303030;
+	font-size: 18px;
+	text-decoration: none;
+	transition: all .0.5s ease;
+}
+.ba-text h3{
+	margin: 0;
+	font-family: Raleway;
+	font-size: 150px;
+	line-height: 1;
+	text-align: right;
+	word-wrap: break-word;
+	text-transform: uppercase ;
+}
+.ba-text{
+	width:615px;
+	height: 491px;
+	margin-right: 104px;
+}
+.ba-text p{
+	font-family: 'Roboto Light';
+	font-size: 24px;
+	text-align: right;
+}
+.ba-text p:nth-child(2n+1){
+	color: #e10011;
+	font-size: 24px;
+	text-align: right;
+}
+.ba-img {
+	float: left;
+}
+.ba-fp {
+	margin-top: 185px;
+	padding-bottom: 78px;
+	background: #FFF;
+}
+.ba-fp h3{
+	padding-top: 114px;
+	margin: 0;
+	font-size: 48px;
+	text-align: center;
+}
+.ba-fp img{
+	display: block;
+	margin: 0 auto;
+	padding: 6.5px 0;
+}
+.ba-fp p{
+	margin: 0 auto;
+	max-width: 585px;
+	line-height: 1.3;
+	font-size: 18px;
+	text-align: center;
+}
+.ba-gallery {
+	background: #FFF;
+}
+.ba-grid {
+	padding-left: 51px;
+	padding-right: 71px;
+}
+.ba-menu a:hover{
+	color: #e10011;
+	transition: all .0.1s ease;
+}
+.ba-grid + .ba-grid {
+    margin-top: 35px;
+    padding-bottom: 72px ;
+}
