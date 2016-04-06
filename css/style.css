@@ -156,11 +156,48 @@ textarea {
     margin-top: 35px;
     padding-bottom: 72px ;
 }
-.ba-grid img {
-	background: #e10011;
-	transition: all .2s ease;
+.ba-img__mbeats{
+	position: relative;
+	display: block;
 }
-.ba-grid img:hover {
-	opacity: 0.3;
-	transition: all .2s ease;
+.ba-hover_big{
+	top:0;
+	left: 8px;
+	width: 97.5%;
+	height: 98.5%;
+	position: absolute;
+	background-color: #e10011;
+	color:#fff;
+	font-size: 30px;
+	padding: 60px 30px;
+	opacity: 0;
+	transition: opacity 0.2s ease-in;
+}
+.ba-hover_small{
+	top:0;
+	left: 8px;
+	width: 95.5%;
+	height: 98.5%;
+	position: absolute;
+	background-color: #e10011;
+	color:#fff;
+	font-size: 30px;
+	padding: 60px 30px;
+	opacity: 0;
+	transition: opacity 0.2s ease-in;
+}
+.ba-grid p{
+	font-family: Raleway;
+	font-size: 16px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+.ba-img__mbeats:hover .ba-hover_big {
+	opacity: 0.7;
+	transition: opacity 0.2s ease-in;
+}
+.ba-img__mbeats:hover .ba-hover_small {
+	opacity: 0.7;
+	transition: opacity 0.2s ease-in;
 }
