@@ -55,14 +55,13 @@ textarea {
 }
 
 /* Layout */
+.ba-header{
+	margin-bottom: 105px;
+}
 .ba-container{
 	max-width: 1230px;
 	padding-left: 16px;
 	padding-right: 16px;
-}
-.ba-header{
-	height: 84px;
-	margin-bottom: 105px;
 }
 .ba-logo h1{
 	margin: 30px 0 0 0;
@@ -100,16 +99,21 @@ textarea {
 	width:615px;
 	height: 491px;
 	margin-right: 104px;
+	text-align: right;
 }
 .ba-text p{
 	font-family: 'Roboto Light';
 	font-size: 24px;
-	text-align: right;
+
 }
-.ba-text p:nth-child(2n+1){
+.ba-text a{
 	color: #e10011;
 	font-size: 24px;
-	text-align: right;
+	text-decoration: none;
+	transition: all .0.5s ease;
+}
+.ba-text a:hover {
+	color: #303030;
 }
 .ba-img {
 	float: left;
@@ -123,7 +127,6 @@ textarea {
 	padding-top: 114px;
 	margin: 0;
 	font-size: 48px;
-	text-align: center;
 }
 .ba-fp img{
 	display: block;
@@ -132,13 +135,14 @@ textarea {
 }
 .ba-fp p{
 	margin: 0 auto;
+	padding-top: 5px;
 	max-width: 585px;
 	line-height: 1.3;
 	font-size: 18px;
-	text-align: center;
 }
 .ba-gallery {
 	background: #FFF;
+	text-align: center;
 }
 .ba-grid {
 	padding-left: 51px;
@@ -151,4 +155,12 @@ textarea {
 .ba-grid + .ba-grid {
     margin-top: 35px;
     padding-bottom: 72px ;
+}
+.ba-grid img {
+	background: #e10011;
+	transition: all .2s ease;
+}
+.ba-grid img:hover {
+	opacity: 0.3;
+	transition: all .2s ease;
 }
