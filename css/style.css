@@ -225,16 +225,17 @@ textarea {
 	box-sizing: border-box;
 }
 .ba-form-subscribe button {
+	outline: none;
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
 	margin-left: -5px;
-	width: 17%;
 	color: #FFF;
+	min-height: 44px;
 	background: red;
 	border: 2px solid red;
 	border-radius: 0 50px 50px 0;
 	text-transform: uppercase;
-	padding: 21px 0 19px 0;
+	padding: 21px 40px 19px 40px;
 	box-sizing: border-box;
 }
 .ba-form-subscribe input:focus {
