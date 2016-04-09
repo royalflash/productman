@@ -144,8 +144,8 @@ textarea {
 	background: url(../img/ba-underline.jpg) no-repeat 50% 100%;
 }
 .ba-fp p{
+	max-width: 50%;
 	margin: 0 auto;
-	padding: 5px 307px;
 	font-size: 18px;
 }
 .ba-menu a:hover{
