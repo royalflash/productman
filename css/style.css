@@ -282,7 +282,7 @@ textarea {
 	font-size: 18px;
 	line-height: 24px;
 }
-.ba-copyright span{
+.ba-copyright a{
 	color:  #303030;
 }
 .ba-links a:hover{
