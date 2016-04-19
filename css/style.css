@@ -288,3 +288,167 @@ textarea {
 .ba-links a:hover{
 	border: 1px solid red;
 }
+/* ipad */
+@media (min-width: 768px) and (max-width: 1000px){
+	.ba-header {
+		padding-bottom: 50px;
+	}
+	.ba-logo{
+		font-size: 24px;
+	}
+	.ba-text{
+		width: 70%;
+		padding-right: 90px;
+	}
+	.ba-menu{
+		display: none;
+	}
+		.ba-text h3{
+		font-size: 48px;
+	}
+		.ba-text p{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 14px;
+	}
+		.ba-text a{
+		font-size: 14px;
+	}
+	.ba-img__lg {
+		width: 30%;
+		padding-right: 80px;
+	}
+	.ba-fp {
+		margin-top: 50px;
+		padding-bottom: 30px;
+	}
+	.ba-fp h3{
+		padding-top: 30px;
+		font-size: 36px;
+	}
+	.ba-fp p {
+		font-size: 14px;
+	}
+	.ba-footer-text h4 {
+		font-size: 36px;
+	}
+	.ba-footer-text p {
+		font-size: 14px;
+	}
+	.ba-form-subscribe {
+		padding-bottom: 35px;
+	}
+	.ba-form-subscribe input{
+		font-size: 14px;
+	}
+	.ba-form-subscribe button{
+		font-size: 14px;
+	}
+	.ba-links a{
+		width: 50px;
+		height: 50px;
+	}
+	.ba-links a:first-child{
+		margin-left: 0;
+	}
+	.ba-copyright {
+		font-size: 14px;
+		padding: 20px 0;
+	}
+}
+/* iphone 5 */
+
+@media (min-width: 320px) and (max-width: 768px){
+	/* header */
+	.ba-header {
+		padding: 50px 0;
+	}
+	.ba-logo{
+		font-size: 24px;
+	}
+	.ba-menu{
+		display: none;
+	}
+	.ba-text{
+		position: absolute;
+		width: 100%;
+		padding: 50px 50px 0 30px;
+		text-align: center;
+	}
+		.ba-text h3{
+		font-size: 24px;
+		text-align: center;
+	}
+		.ba-text p{
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 14px;
+	}
+		.ba-text a{
+		font-size: 14px;
+	}
+	.ba-img__lg {
+		position: relative;
+		padding-right: 0;
+		opacity: 0.2;
+	}
+
+	/* main */
+
+	.ba-fp {
+		margin-top: 50px;
+		padding-bottom: 0;
+	}
+	.ba-fp h3{
+		padding-top: 30px;
+		font-size: 26px;
+		background: none;
+	}
+	.ba-fp p {
+		display: none;
+	}
+	.ba-gl-grid {
+		display: block;
+		padding: 0 10px;
+	}
+	.ba-width-1-3, .ba-width-2-3 {
+		width: 100%;
+	}
+	.ba-footer-text h4 {
+		font-size: 24px;
+	}
+	.ba-footer-text p {
+		font-size: 14px;
+		width: 100%;
+		text-align: center;
+	}
+	.ba-form-subscribe {
+		padding-bottom: 35px;
+	}
+	.ba-form-subscribe input{
+		font-size: 14px;
+		display: block;
+		width: 100%;
+		padding: 10px 10px 10px 50px;
+		border-radius: 50px 50px 50px 50px;
+		margin-bottom: 10px;
+	}
+	.ba-form-subscribe button{
+		width: 150px;
+		font-size: 12px;
+		padding: 10px 10px;
+		border-radius: 50px 50px 50px 50px;
+	}
+	.ba-links a{
+		width: 50px;
+		height: 50px;
+	}
+	.ba-links a:first-child{
+		margin-left: 0;
+	}
+	.ba-copyright {
+		font-size: 14px;
+
+	}
+}
